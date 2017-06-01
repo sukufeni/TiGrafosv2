@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Grafo\ArestaRotas.cs" />
     <Compile Include="Grafo\ArestaVoo.cs" />
+    <Compile Include="Grafo\Djikstra.cs" />
     <Compile Include="Grafo\Grafo.cs" />
     <Compile Include="Grafo\Horario.cs" />
     <Compile Include="Grafo\ListaRotas.cs" />

@@ -50,6 +50,20 @@ namespace TI_Grafos_V2
             this.ult.Prox = n;
             ult = n;
         }
+        public double [,] preencheDistancia(int tamanhoRotas)
+        {
+            ListaRotas aux = new ListaRotas();
+            Vertice v = new Vertice();
+            v = aux.prim.Aresta1.VerticeAdjacenteRota;
+            double [,] distancias = new double[tamanhoRotas,tamanhoRotas];
+            while (v != null)
+            {
+
+            }
+
+            return distancias;
+        }
+
 
         public Vertice pesquisa(string nome)
         {
